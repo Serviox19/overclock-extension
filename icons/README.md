@@ -16,3 +16,4 @@ You can:
 ## Temporary Solution
 
 For testing, you can use any PNG images with the correct dimensions. The extension will still work with placeholder icons.
+

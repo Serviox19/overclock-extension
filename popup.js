@@ -49,3 +49,4 @@ document.addEventListener('DOMContentLoaded', function() {
     statusDiv.style.color = '#FF5722';
   });
 });
+

@@ -159,3 +159,4 @@ chrome.tabs.sendMessage(tabId, { action: 'highlight' });
 ## License
 
 MIT
+

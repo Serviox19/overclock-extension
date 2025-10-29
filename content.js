@@ -50,3 +50,4 @@ function showNotification(message) {
 
 // Example usage
 // showNotification('Extension loaded!');
+
