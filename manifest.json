@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "My Chrome Extension",
+  "name": "Mood Board Capture",
   "version": "1.0.0",
-  "description": "A sample Chrome extension with boilerplate code",
+  "description": "Capture and save images from any website to your personal mood board",
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
@@ -23,16 +23,17 @@
     {
       "matches": ["<all_urls>"],
       "js": ["content.js"],
-      "css": ["content.css"]
+      "css": ["content.css"],
+      "run_at": "document_idle"
     }
   ],
   "permissions": [
     "storage",
-    "activeTab"
+    "activeTab",
+    "downloads"
   ],
   "host_permissions": [
     "http://*/*",
     "https://*/*"
   ]
 }
-
